@@ -1,0 +1,33 @@
+section {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+}
+footer, nav {
+  height: 10vh;
+  background-color: grey;
+}
+#home {
+  background-image: url('../img/img1.jpg');
+}
+#about {
+  background-color: black;
+  color: white;
+}
+#portfolio {
+  background-image: url('../img/img2.jpg');
+}
+#contact {
+ background-color: blue;
+}
+li {
+  display:inline;
+  float: right;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}

@@ -14,12 +14,13 @@ section {
 
     /*Definimos el 100% del viewport*/
     height: 100vh;
+
 }
 
 /*Pueden compartir propiedades 2 tipos de selectores*/
 footer, nav {
     height: 10vh;
-    background-color: grey;
+    background-color: #ccc;
 }
 
 #home {
@@ -28,8 +29,7 @@ footer, nav {
 }
 
 #about {
-    background-color: black;
-    color: white;
+    height: 50vh;
 }
 
 #portfolio {
@@ -50,16 +50,26 @@ li {
 a {
     display: block;
     padding: 27px;
-    background-color: grey;
+    background-color: #ccc;
+    color: white;
 }
 
 div {
     color: #777;
     background-color: white;
     text-align: center;
-    padding: 50px 80px;
-    width: 100vh;
+
+    width: 100vw;
     height: 100vh;
     text-align: justify;
+
+}
+
+h2{
+    margin: 200px 0px 0px ;
+}
+
+p{
+    margin: 30px 30px 0px ;
 
 }

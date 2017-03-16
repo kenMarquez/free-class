@@ -4,13 +4,15 @@
 
 /* Tomamos el elemento section */
 section {
+
     /*Fixed el elemento se quedará fijo en la pantalla */
     background-attachment: fixed;
+
     /* Para que el fondo quede centrado*/
     background-position: center center;
 
     /* Define el tamaño de la imagen */
-    background-size: inherit;
+    background-size: cover;
 
     /*Definimos el 100% del viewport*/
     height: 100vh;
@@ -58,11 +60,9 @@ div {
     color: #777;
     background-color: white;
     text-align: center;
-
     width: 100vw;
     height: 100vh;
     text-align: justify;
-
 }
 
 h2{
@@ -71,5 +71,4 @@ h2{
 
 p{
     margin: 30px 30px 0px ;
-
 }
